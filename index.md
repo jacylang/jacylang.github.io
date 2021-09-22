@@ -24,3 +24,24 @@
         </p>
     </a>
 </div>
+
+# _Jacy_ programming language
+
+_Jacy_ is a WIP experimental project aimed at easily writing low-level and high-level code using modern features.
+
+It is mostly inspired by Rust, other influencers are: Swift, C++, OCaml (from view of Rust), Cyclone.
+
+Features _Jacy_ will/does have:
+- Functional programming:
+  - Pattern matching
+  - Closures (lambdas)
+  - Immutable data (forced by default)
+  - ADT
+  - Parametric polymorphism
+- Type system:
+  - Static
+  - Nominal sub-typing
+  - Traits (aka type classes)
+- Safety:
+  - No `null`
+  - No Undefined Behavior
