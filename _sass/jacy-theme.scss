@@ -9,14 +9,13 @@ html, body {
 
 body {
     background-color: #ffff;
-    background-image: linear-gradient(180deg,#f36d6caa 0%, #f36d6c0f 300px, #fff 100%);
 }
 
 header.page-header {
     padding: 50px 60px;
-    background: transparent;
-    // background-color: #fff;
-    // background-image: linear-gradient(120deg, #f03e3e3d, #f03e3ecb);
+    background-color: #fff;
+    background-image: linear-gradient(120deg, #f03e3e3d, #f03e3ecb);
+    box-shadow: 0 50px 500px -1px #f03e3ecb;
 
 }
 
