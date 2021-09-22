@@ -65,8 +65,8 @@ h1 {
     width: 100%;
     height: max-content;;
     grid-template-columns: 1fr 1fr;
-    grid-row-gap: 20px;
-    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-column-gap: 10px;
     grid-template-rows: auto;
     box-shadow: 0 2px #f03e3eaa;
     padding-bottom: 32px;
@@ -87,7 +87,7 @@ h1 {
 
         &:hover {
             // background-position: bottom 0 right 25%;
-            box-shadow: 0 0 0 1px #ddd, 0 5px 6px -1px #ddd, 0 5px 25px #f0f0f0;
+            box-shadow: 0 0 0 1px #ddd, 0 5px 6px -1px #ddd, 0 5px 25px #ddd;
             transform: translateY(-3px);
         }
 
