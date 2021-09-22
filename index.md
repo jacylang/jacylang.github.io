@@ -2,7 +2,7 @@
     <a class="book-link" href="/Jacy-Dev-Book">
         <span class="title">📓 Dev Book</span>
         <p class="description">
-            Dev Book is a collection of notes and helpful information about <span class="jacy-logo">Jacy</span> development.
+            Dev Book is a collection of notes and helpful information about <span class="jacy-logo">Jacy</span> internals.
         </p>
     </a>
     <a class="book-link" href="https://github.com/jacylang/Jacy-Dev-Book">
