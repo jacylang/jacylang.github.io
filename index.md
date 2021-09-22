@@ -25,13 +25,13 @@
     </a>
 </div>
 
-# _Jacy_ programming language
+# <span class="jacy-logo">Jacy</span> programming language
 
-_Jacy_ is a WIP experimental project aimed at easily writing low-level and high-level code using modern features.
+<span class="jacy-logo">Jacy</span> is a WIP experimental project aimed at easily writing low-level and high-level code using modern features.
 
 It is mostly inspired by Rust, other influencers are: Swift, C++, OCaml (from view of Rust), Cyclone.
 
-Features _Jacy_ will/does have:
+Features <span class="jacy-logo">Jacy</span> will/does have:
 - Functional programming:
   - Pattern matching
   - Closures (lambdas)

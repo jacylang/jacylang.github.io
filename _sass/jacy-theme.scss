@@ -22,6 +22,10 @@ header.page-header {
     color: #fff;
 }
 
+.jacy-logo {
+    font-family: 'Courgette', cursive;
+}
+
 .project-name {
     font-weight: 100;
     font-size: 100px;
@@ -39,6 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+    margin-block: none;
     margin: 16px auto;
 }
 
@@ -69,7 +74,7 @@ h1 {
         transition: .25s ease;
 
         &:hover {
-            background: #f0f0f0;
+            background: #FDE7E7;
             box-shadow: 0 0 0 1px #ddd, 0 5px 6px -1px #ddd;
             transform: translateY(-3px);
         }
