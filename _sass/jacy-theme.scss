@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6, em {
 
     .book-link {
         display: grid;
-        grid-template-columns: 100%;
+        grid-template-columns: 1fr;
         grid-template-rows: 50px auto;
         border-radius: 6px;
         box-shadow: 0 0 0 1px #ddd, 0 3px 5px -1px #ddd;
@@ -44,8 +44,8 @@ h1, h2, h3, h4, h5, h6, em {
         }
 
         .title {
+            width: 100%;
             line-height: 50px;
-            margin: 5px auto;
             padding: 5px 10px;
             font-size: 20px;
             text-align: center;
