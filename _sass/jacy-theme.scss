@@ -79,12 +79,12 @@ h1 {
         box-shadow: 0 0 0 1px #ddd, 0 3px 5px -1px #ddd;
         text-decoration: none;
         color: #333;
-        background: #fff;
+        background: linear-gradient(120deg, #fff 99%, #f03e3e90 100%);
 
         transition: .25s ease;
 
         &:hover {
-            background: linear-gradient(120deg, #fff 0%, #f03e3e90 95%);
+            background: linear-gradient(120deg, #fff 90%, #f03e3e90 95%);
             box-shadow: 0 0 0 1px #ddd, 0 5px 6px -1px #ddd;
             transform: translateY(-3px);
         }
