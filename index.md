@@ -1,5 +1,3 @@
-# _Jacy_
-
 <div class="books">
     <a class="book-link" href="/Jacy-Dev-Book">
         <span class="title">Dev Book</span>
