@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6, em {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
 
-    .bool-link {
+    .book-link {
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: 50px auto;
@@ -36,15 +36,19 @@ h1, h2, h3, h4, h5, h6, em {
 
         transition: .25s ease;
 
+        text-decoration: none;
+
         .title {
             line-height: 50px;
             margin: 5px auto;
             padding: 5px 10px;
             font-size: 20px;
+            text-align: center;
         }
 
         .description {
             font-size: 16px;
+            text-align: justify;
         }
 
         &:hover {
