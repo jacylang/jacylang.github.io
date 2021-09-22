@@ -84,7 +84,7 @@ h1 {
         transition: .25s ease;
 
         &:hover {
-            background: #f03e3e0f;
+            background: linear-gradient(120deg, #fff 0%, #f03e3e90 95%);
             box-shadow: 0 0 0 1px #ddd, 0 5px 6px -1px #ddd;
             transform: translateY(-3px);
         }
