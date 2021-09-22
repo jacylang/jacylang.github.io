@@ -30,13 +30,15 @@ header.page-header {
 }
 
 .jacy-logo {
-    padding: 0 5px;
+    padding: 0 8px;
     line-height: 0.9;
+    height: 100%;
     font-family: 'Courgette', cursive;
 }
 
 .rust-logo {
-    padding: 0 5px;
+    padding: 0 2px;
+    letter-spacing: 0.05em;
     font-family: 'Alfa Slab One', cursive;
 }
 
