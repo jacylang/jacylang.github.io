@@ -19,3 +19,35 @@ h1, h2, h3, h4, h5, h6, em {
 .site-footer-credits {
     opacity: 0.3;
 }
+
+.books {
+    display: grid;
+    width: 100%;
+    height: max-content;;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+
+    .bool-link {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50px auto;
+        border-radius: 6px;
+        box-shadow: 0 0 0 1px #ddd, 0 3px 5px -1px #ddd;
+
+        a {
+            line-height: 50px;
+            margin: 5px auto;
+            padding: 5px 10px;
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        &:hover {
+            background-image: linear-gradient(120deg, #f03e3e6b, #f03e3ecb);
+            box-shadow: 0 0 0 1px #ddd, 0 5px 8px -1px #ddd;
+        }
+    }
+}
