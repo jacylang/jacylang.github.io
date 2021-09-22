@@ -46,7 +46,7 @@ header.page-header {
 }
 
 .jacy-logo {
-    padding: 0 8px;
+    padding: 0 4px;
     line-height: 0.9;
     font-family: 'Courgette', cursive;
 }
@@ -127,6 +127,11 @@ h1, h2, h3, h4, h5, h6 {
             font-size: 22px;
             box-shadow: 0 1px #ddd;
             vertical-align: middle;
+
+            .jacy-logo {
+                padding: 0 10px;
+                margin-bottom: 2px;
+            }
 
             img {
                 width: 50px;
