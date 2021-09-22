@@ -9,7 +9,19 @@ html, body {
     padding: 0;
 }
 
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
 body {
+    animation: appear 1s ease;
+
     background-color: #ffff;
     font-family: 'Fira Sans', sans-serif;
 
