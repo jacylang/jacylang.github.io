@@ -35,6 +35,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: max-content;;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
     grid-template-rows: auto;
 
     .book-link {
