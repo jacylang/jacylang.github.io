@@ -7,13 +7,19 @@ header.page-header {
 
 }
 
+.project-name, .project-tagline {
+    color: #fff;
+}
+
 .project-name {
+    font-weight: 100;
     font-size: 100px;
     font-family: 'Courgette', cursive;
 }
 
-.project-name, .project-tagline {
-    color: #fff;
+.project-tagline {
+    font-size: 22px;
+    font-weight: 800;
 }
 
 h1, h2, h3, h4, h5, h6 {
