@@ -18,9 +18,9 @@
         </p>
     </a>
     <a class="book-link" href="https://marketplace.visualstudio.com/items?itemName=jacy-lang.jacy-lang">
-        <span class="title"><img src="assets/img/vscode.svg"> <span>Visual Studio Code extension</span></span>
+        <span class="title"><img src="assets/img/vscode.svg"><span>Visual Studio Code extension</span></span>
         <p class="description">
-            Supports basic highlighting for <em>Jacy</em> and <em>Jon</em>. You can checkout source code of extension <a href="https://github.com/jacylang/vscode-jacy">here</a>
+            Supports basic highlighting for <em>Jacy</em> and <em>Jon</em>.
         </p>
     </a>
 </div>
