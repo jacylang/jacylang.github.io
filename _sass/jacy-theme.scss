@@ -32,10 +32,11 @@ header.page-header {
 .project-name {
     width: max-content;
     margin: 0 auto;
+    padding: 0 50px;
     font-weight: 100;
     font-size: 100px;
     font-family: 'Courgette', cursive;
-    box-shadow: 0 1px #fff;
+    box-shadow: 0 1px #fffa;
 }
 
 .project-tagline {
