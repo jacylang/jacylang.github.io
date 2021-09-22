@@ -34,14 +34,16 @@ h1, h2, h3, h4, h5, h6, em {
         border-radius: 6px;
         box-shadow: 0 0 0 1px #ddd, 0 3px 5px -1px #ddd;
 
-        a {
+        transition: .25s ease;
+
+        .title {
             line-height: 50px;
             margin: 5px auto;
             padding: 5px 10px;
             font-size: 20px;
         }
 
-        p {
+        .description {
             font-size: 16px;
         }
 
