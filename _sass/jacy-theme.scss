@@ -30,7 +30,7 @@ body {
     font-family: 'Fira Sans', sans-serif;
 
     *::selection {
-        background-color: #f03e3e;
+        background-color: #f03e3e !important;
     }
 }
 
@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 
             .jacy-logo {
                 padding: 0 8px;
-                margin-bottom: 4px;
+                margin-bottom: 5px;
             }
 
             img {
