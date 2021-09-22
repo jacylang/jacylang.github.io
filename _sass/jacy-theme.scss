@@ -48,8 +48,8 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
     grid-template-rows: auto;
-    box-shadow: 0 1px #f03e3eaa;
-    padding: 10px 0;
+    box-shadow: 0 2px #f03e3eaa;
+    padding-bottom: 25px;
 
     .book-link {
         display: grid;
