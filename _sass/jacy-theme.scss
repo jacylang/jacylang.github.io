@@ -30,9 +30,12 @@ header.page-header {
 }
 
 .project-name {
+    width: max-content;
+    margin: 0 auto;
     font-weight: 100;
     font-size: 100px;
     font-family: 'Courgette', cursive;
+    box-shadow: 0 1px #fff;
 }
 
 .project-tagline {
