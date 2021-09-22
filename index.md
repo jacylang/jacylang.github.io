@@ -29,7 +29,7 @@
 
 <span class="jacy-logo">Jacy</span> is a WIP experimental project aimed at easily writing low-level and high-level code using modern features.
 
-It is mostly inspired by Rust, other influencers are: Swift, C++, OCaml (from view of Rust), Cyclone.
+It is mostly inspired by <span class="rust-logo">Rust</span>, other influencers are: Swift, C++, OCaml (from view of Rust), Cyclone.
 
 Features <span class="jacy-logo">Jacy</span> will/does have:
 - Functional programming:
