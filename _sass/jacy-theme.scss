@@ -11,6 +11,10 @@ html, body {
 body {
     background-color: #ffff;
     font-family: 'Fira Sans', sans-serif;
+
+    *::selection {
+        background-color: #f03e3e;
+    }
 }
 
 header.page-header {
@@ -87,7 +91,7 @@ h1 {
 
         &:hover {
             // background-position: bottom 0 right 25%;
-            box-shadow: 0 0 0 1px #ddd, 0 5px 6px -1px #ddd, 0 5px 25px #d6d6d6;
+            box-shadow: 0 0 0 1px #ddd, 0 5px 6px -1px #ddd, 0 5px 25px #dadada;
             transform: translateY(-3px);
         }
 
