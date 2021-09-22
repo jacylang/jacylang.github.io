@@ -51,7 +51,8 @@ h1, h2, h3, h4, h5, h6 {
 
         &:hover {
             background: #f0f0f0;
-            box-shadow: 0 0 0 1px #ddd, 0 5px 8px -1px #ddd;
+            box-shadow: 0 0 0 1px #ddd, 0 5px 8px -1px #d0d0d0;
+            transform: translateY(-3px);
         }
 
         .title {
