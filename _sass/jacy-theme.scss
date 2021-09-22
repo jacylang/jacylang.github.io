@@ -46,10 +46,11 @@ h1, h2, h3, h4, h5, h6, em {
         .title {
             width: 100%;
             line-height: 50px;
+            margin: 0 5px;
             padding: 5px 10px;
             font-size: 20px;
             text-align: center;
-            box-shadow: 0 1px #f03e3ecb;
+            box-shadow: 0 1px #f0f0f0;
         }
 
         .description {
