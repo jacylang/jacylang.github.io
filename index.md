@@ -48,5 +48,3 @@ Features <span class="jacy-logo">Jacy</span> will/does have:
   - No `null`
   - No Undefined Behavior
 
-
-<div class="cvs"></div>
