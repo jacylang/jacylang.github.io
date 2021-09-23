@@ -201,9 +201,9 @@ h1#jacy-programming-language {
         animation: 0.25s flame infinite;
         filter: blur(10px);
         box-shadow: 17px 20px 90px #700;
-        border: 25px solid #fff;
-        border-left-width: 25px;
-        border-top-width: 25px;
+        border: 15px solid darken(#f03e3e, 5%);
+        border-left-width: 15px;
+        border-top-width: 15px;
     
         &:after,
         &:before {
@@ -228,16 +228,16 @@ h1#jacy-programming-language {
     
     @keyframes flame {
         0% {
-            height: 150px;
-            width: 150px;
+            height: 75px;
+            width: 75px;
         }
         50% {
-            height: 140px;
-            width: 140px;
+            height: 65px;
+            width: 65px;
         }
         100% {
-            height: 150px;
-            width: 150px;
+            height: 75px;
+            width: 75px;
         }
     }
 }
