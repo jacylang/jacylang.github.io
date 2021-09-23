@@ -24,6 +24,7 @@ body {
     }
 }
 
+
 body {
     animation: appear 1s ease;
 
@@ -181,66 +182,10 @@ h1#jacy-programming-language {
     }
 }
 
-.flame-block {
-    display: none;
-    position: relative;
-    width: 100px;
-    height: 100px;
-    padding: 25px 0;
-    margin: 50px auto;
-    opacity: 0.5;
-
-    .flame {
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0; right: 0;
-        width: 75px;
-        height: 75px;
-        background: linear-gradient(-45deg, #f03e3e, orange);
-        border-radius: 75px 75px 0px 75px;
-        transform: rotate(-135deg);
-        animation: 0.3s flame infinite;
-        filter: blur(10px);
-        box-shadow: 17px 20px 30px #700;
-        border: 35px solid darken(#f03e3e, 5%);
-        border-left-width: 15px;
-        border-top-width: 15px;
-    
-        &:after,
-        &:before {
-            content: "";
-            width: 50px;
-            height: 50px;
-            display: block;
-            position: absolute;
-            background: linear-gradient(-45deg, #f03e3e, orange);
-            animation: 0.3s flame infinite;
-            transform: scale(0.8) rotate(20deg);
-            border-radius: 50px 50px 0px 50px;
-            top: 20px;
-        }
-    
-        &:before {
-            top: 0;
-            animation-duration: 0.3s;
-            transform: scale(0.9) rotate(-15deg) translate(10px, 0px);
-        }
-    }
-    
-    @keyframes flame {
-        0% {
-            height: 75px;
-            width: 75px;
-        }
-        50% {
-            height: 65px;
-            width: 65px;
-        }
-        100% {
-            height: 75px;
-            width: 75px;
-        }
-    }
+.cvs {
+    display: block;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw;
+    height: 100vh;
 }
-

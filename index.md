@@ -49,6 +49,4 @@ Features <span class="jacy-logo">Jacy</span> will/does have:
   - No Undefined Behavior
 
 
-<div class="flame-block">
-    <div class="flame"></div>
-</div>
+<div class="cvs"></div>
