@@ -193,29 +193,29 @@ h1#jacy-programming-language {
         position: absolute;
         top: 0;
         left: 0; right: 0;
-        width: 50px;
-        height: 50px;
+        width: 75px;
+        height: 75px;
         background: linear-gradient(-45deg, #f03e3e, orange);
-        border-radius: 150px 150px 0px 150px;
+        border-radius: 75px 75px 0px 75px;
         transform: rotate(-135deg);
         animation: 0.25s flame infinite;
         filter: blur(10px);
-        box-shadow: 17px 20px 90px #700;
-        border: 15px solid darken(#f03e3e, 5%);
+        box-shadow: 17px 20px 30px #700;
+        border: 25px solid darken(#f03e3e, 5%);
         border-left-width: 15px;
         border-top-width: 15px;
     
         &:after,
         &:before {
             content: "";
-            width: 100px;
-            height: 100px;
+            width: 50px;
+            height: 50px;
             display: block;
             position: absolute;
             background: linear-gradient(-45deg, #f03e3e, orange);
             animation: 0.2s flame infinite;
             transform: scale(0.8) rotate(20deg);
-            border-radius: 100px 100px 0px 100px;
+            border-radius: 50px 50px 0px 50px;
             top: 20px;
         }
     
