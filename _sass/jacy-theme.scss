@@ -12,15 +12,11 @@ body {
 
 @keyframes appear {
     0% {
-        opacity: 0;
-    }
-
-    50% {
-        opacity: 0.8;
+        filter: blur(100%);
     }
 
     100% {
-        opacity: 1;
+        filter: blur(0);
     }
 }
 
