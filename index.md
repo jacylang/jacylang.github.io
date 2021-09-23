@@ -43,6 +43,8 @@ Features <span class="jacy-logo">Jacy</span> will/does have:
   - Nominal sub-typing
   - Traits (aka type classes)
 - Safety:
+  - Borrow checker
+  - References are always valid
   - No `null`
   - No Undefined Behavior
 
