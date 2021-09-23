@@ -186,7 +186,8 @@ h1#jacy-programming-language {
     position: relative;
     width: 100px;
     height: 100px;
-    margin: 25px auto;
+    padding: 25px 0;
+    margin: 50px auto;
 
     .flame {
         display: block;
@@ -198,7 +199,7 @@ h1#jacy-programming-language {
         background: linear-gradient(-45deg, #f03e3e, orange);
         border-radius: 75px 75px 0px 75px;
         transform: rotate(-135deg);
-        animation: 0.25s flame infinite;
+        animation: 0.3s flame infinite;
         filter: blur(10px);
         box-shadow: 17px 20px 30px #700;
         border: 35px solid darken(#f03e3e, 5%);
@@ -213,7 +214,7 @@ h1#jacy-programming-language {
             display: block;
             position: absolute;
             background: linear-gradient(-45deg, #f03e3e, orange);
-            animation: 0.2s flame infinite;
+            animation: 0.3s flame infinite;
             transform: scale(0.8) rotate(20deg);
             border-radius: 50px 50px 0px 50px;
             top: 20px;
@@ -221,7 +222,7 @@ h1#jacy-programming-language {
     
         &:before {
             top: 0;
-            animation-duration: 0.25s;
+            animation-duration: 0.3s;
             transform: scale(0.9) rotate(-15deg) translate(10px, 0px);
         }
     }
