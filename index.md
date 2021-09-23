@@ -18,7 +18,7 @@
         </p>
     </a>
     <a class="book-link" href="https://marketplace.visualstudio.com/items?itemName=jacy-lang.jacy-lang">
-        <span class="title"><img src="assets/img/vscode.svg"><span>Visual Studio Code extension</span></span>
+        <span class="title"><img src="assets/img/vscode.svg"><span>VSCode extension</span></span>
         <p class="description">
             Supports basic highlighting for <span class="jacy-logo">Jacy</span> and <span class="jacy-logo">Jon</span>.
         </p>
