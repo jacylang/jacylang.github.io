@@ -33,8 +33,7 @@ body {
     bottom: -50px;
     margin-left: auto;
     margin-right: auto;
-    position: fixed;
-    z-index: -1;
+    position: absolute;
     width: 150px;
     height: 150px;
     background: linear-gradient(-45deg, red, orange);
@@ -46,6 +45,7 @@ body {
     border: 45px solid #fff;
     border-left-width: 25px;
     border-top-width: 25px;
+    z-index: -1;
 
     &:after,
     &:before {
