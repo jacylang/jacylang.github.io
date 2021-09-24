@@ -23,6 +23,7 @@
             Supports basic highlighting for <span class="jacy-logo">Jacy</span> and <span class="jacy-logo">Jon</span>.
         </p>
     </a>
+    <div class="flame"></div>
 </div>
 
 # <span class="jacy-logo">Jacy</span> programming language
@@ -47,5 +48,3 @@ Features <span class="jacy-logo">Jacy</span> will/does have:
   - References are always valid
   - No `null`
   - No Undefined Behavior
-
-<div class="flame"></div>
