@@ -31,6 +31,33 @@ body {
     }
 }
 
+body {
+    &::-webkit-scrollbar {
+        width: 7px;
+        height: 6px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: #ffff;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: darken(#fff0f0, 1%);
+        transition: .25s ease;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: darken(#fff0f0, 5%);
+    }
+}
+
+body {
+    &::-webkit-scrollbar {
+        width: 10px;
+        height: 8px;
+    }
+}
+
 @keyframes flame {
     0% {
         box-shadow: 0 0 2px #f03e3e;
