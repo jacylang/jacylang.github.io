@@ -38,11 +38,11 @@ body {
     }
 
     &::-webkit-scrollbar-track {
-        background: #ffff;
+        background: transparent;
     }
 
     &::-webkit-scrollbar-thumb {
-        background: lighten(#f03e3e, 30%);
+        background: lighten(#f03e3e, 25%);
         transition: .25s ease;
     }
 
