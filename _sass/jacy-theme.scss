@@ -42,12 +42,12 @@ body {
     }
 
     &::-webkit-scrollbar-thumb {
-        background: lighten(#f03e3e, 5%);
+        background: lighten(#f03e3e, 10%);
         transition: .25s ease;
     }
 
     &::-webkit-scrollbar-thumb:hover {
-        background: lighten(#f03e3e, 1%);
+        background: lighten(#f03e3e, 5%);
     }
 }
 
