@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 
-html, body {
+html,
+body {
     width: 100%;
     min-height: 100vh;
     margin: 0;
@@ -11,23 +12,20 @@ html, body {
 
 @keyframes appear {
     0% {
-        opacity: 0;
-    }
-
-    50% {
-        opacity: 0.8;
+        filter: blur(25px);
     }
 
     100% {
-        opacity: 1;
+        filter: blur(0);
     }
 }
 
+
 body {
-    animation: appear 1s ease;
+    animation: appear 0.4s ease-out;
 
     background-color: #ffff;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
 
     *::selection {
         background-color: #f03e3e !important;
@@ -48,25 +46,28 @@ header.page-header {
     padding: 50px 60px;
     background-color: #fff;
     background-size: cover, 75px;
-    background-image: linear-gradient(120deg, #f03e3e2a, #f03e3e90 40%), url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBoZWlnaHQ9IjEwMCIgd2lkdGg9IjEwMCIgZmlsbD0iIzAwMDAwMCIgdmVyc2lvbj0iMS4xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMDAgMTAwIiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0iIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0ibm9uZSIvPjxnIGNsYXNzPSJjdXJyZW50TGF5ZXIiIHN0eWxlPSIiPjx0aXRsZT5MYXllciAxPC90aXRsZT48cGF0aCBkPSJNODEuNzEzLDU5LjUwNmMwLTEwLjA3Ni00LjgtMjAuMDkyLTEyLjgzOS0yNi43OTNsLTEuMDQ2LTAuODQyYy0xLjIzMi0wLjk5MS0zLjA5Ny0wLjYxMy0zLjc3NywwLjgxNCAgYy0wLjMzLDAuNjk0LTAuNTY0LDcuNzIxLTAuNTY0LDguOTA1YzAsMC4yMzktMC4wNSwwLjYzMS0wLjA0NSwwLjY3M2MwLDAuOTk5LTAuODkzLDEuNzkyLTEuOTIzLDEuNjIyICBjLTAuODEtMC4xMzMtMS4zNjMtMC45MDEtMS4zNjctMS43MjJDNjAuMSwzMC4xNDYsNTYuNDI4LDIxLjc2NSw0OS42ODgsMTUuNTA3Yy00LjEyMi0zLjgyNy04Ljk5NS03LjIwOC0xMC40ODctNC41NjkgIGMtMC4zOCwwLjY3MywwLjI0OSwyLjE4NSwwLjg4Myw0LjEyM2MxLjQwOSw0LjMxLTIuODkyLDExLjE5NC04Ljk3MSwxOC4wNzNDMjUuMzk5LDM5LjYsMTguMjg3LDQ3LjY0OCwxOC4yODcsNTkuNTA2ICBDMTguMjg3LDc1LjQ2NCwzMy40MDMsOTAsNDkuOTk5LDkwQzY2LjU5Nyw5MCw4MS43MTMsNzUuNDY0LDgxLjcxMyw1OS41MDZ6IiBpZD0ic3ZnXzEiIGNsYXNzPSJzZWxlY3RlZCIgb3BhY2l0eT0iMC4wNiIvPjwvZz48L3N2Zz4=');
 
     animation: flame 1s ease infinite;
+
+    background-image: linear-gradient(120deg, #f03e3e2a, #f03e3e90 40%),
+        url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBoZWlnaHQ9IjEwMCIgd2lkdGg9IjEwMCIgZmlsbD0iIzAwMDAwMCIgdmVyc2lvbj0iMS4xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMDAgMTAwIiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0iIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0ibm9uZSIvPjxnIGNsYXNzPSJjdXJyZW50TGF5ZXIiIHN0eWxlPSIiPjx0aXRsZT5MYXllciAxPC90aXRsZT48cGF0aCBkPSJNODEuNzEzLDU5LjUwNmMwLTEwLjA3Ni00LjgtMjAuMDkyLTEyLjgzOS0yNi43OTNsLTEuMDQ2LTAuODQyYy0xLjIzMi0wLjk5MS0zLjA5Ny0wLjYxMy0zLjc3NywwLjgxNCAgYy0wLjMzLDAuNjk0LTAuNTY0LDcuNzIxLTAuNTY0LDguOTA1YzAsMC4yMzktMC4wNSwwLjYzMS0wLjA0NSwwLjY3M2MwLDAuOTk5LTAuODkzLDEuNzkyLTEuOTIzLDEuNjIyICBjLTAuODEtMC4xMzMtMS4zNjMtMC45MDEtMS4zNjctMS43MjJDNjAuMSwzMC4xNDYsNTYuNDI4LDIxLjc2NSw0OS42ODgsMTUuNTA3Yy00LjEyMi0zLjgyNy04Ljk5NS03LjIwOC0xMC40ODctNC41NjkgIGMtMC4zOCwwLjY3MywwLjI0OSwyLjE4NSwwLjg4Myw0LjEyM2MxLjQwOSw0LjMxLTIuODkyLDExLjE5NC04Ljk3MSwxOC4wNzNDMjUuMzk5LDM5LjYsMTguMjg3LDQ3LjY0OCwxOC4yODcsNTkuNTA2ICBDMTguMjg3LDc1LjQ2NCwzMy40MDMsOTAsNDkuOTk5LDkwQzY2LjU5Nyw5MCw4MS43MTMsNzUuNDY0LDgxLjcxMyw1OS41MDZ6IiBpZD0ic3ZnXzEiIGNsYXNzPSJzZWxlY3RlZCIgb3BhY2l0eT0iMC4wNiIvPjwvZz48L3N2Zz4=");
 }
 
-.project-name, .project-tagline {
+.project-name,
+.project-tagline {
     color: #fff;
 }
 
 .jacy-logo {
     padding: 0 4px;
     line-height: 0.9;
-    font-family: 'Courgette', cursive;
+    font-family: "Courgette", cursive;
 }
 
 .rust-logo {
     padding: 0 2px;
     letter-spacing: 0.05em;
-    font-family: 'Alfa Slab One', cursive;
+    font-family: "Alfa Slab One", cursive;
 }
 
 .project-name {
@@ -77,7 +78,7 @@ header.page-header {
     padding: 0 50px;
     font-weight: 100;
     font-size: 100px;
-    font-family: 'Courgette', cursive;
+    font-family: "Courgette", cursive;
     box-shadow: 0 1px #fffa;
 }
 
@@ -87,7 +88,12 @@ header.page-header {
     opacity: 1;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #f03e3e;
 }
 
@@ -121,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
         // background: linear-gradient(45deg, #fff 50%, #f03e3e 125%);
         // background-position: bottom 0 right -25%;
 
-        transition: .25s ease;
+        transition: 0.25s ease;
 
         &:hover {
             // background-position: bottom 0 right 25%;
@@ -182,4 +188,12 @@ h1#jacy-programming-language {
     em {
         color: #f03e3e;
     }
+}
+
+.cvs {
+    display: block;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw;
+    height: 100vh;
 }
