@@ -112,7 +112,7 @@ header.page-header {
         position: absolute;
         width: 150px;
         height: 150px;
-        background: linear-gradient(-45deg, red, orange);
+        background: linear-gradient(-45deg, #f03e3e, #FFFD98);
         border-radius: 150px 150px 0px 150px;
         transform: rotate(-135deg);
         animation: 1s flame infinite;
@@ -130,7 +130,7 @@ header.page-header {
             height: 100px;
             display: block;
             position: absolute;
-            background: linear-gradient(-45deg, red, orange);
+            background: linear-gradient(-45deg, #f03e3e, #FFFD98);
             animation: 1s flame infinite;
             transform: scale(0.8) rotate(20deg);
             border-radius: 100px 100px 0px 100px;
