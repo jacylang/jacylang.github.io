@@ -23,8 +23,9 @@
             Supports basic highlighting for <span class="jacy-logo">Jacy</span> and <span class="jacy-logo">Jon</span>.
         </p>
     </a>
-    <div class="flame"></div>
 </div>
+
+<div class="flame"></div>
 
 # <span class="jacy-logo">Jacy</span> programming language
 
