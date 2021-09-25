@@ -25,8 +25,6 @@
     </a>
 </div>
 
-<div class="flame"></div>
-
 # <span class="jacy-logo">Jacy</span> programming language
 
 <span class="jacy-logo">Jacy</span> is a WIP experimental project aimed at easily writing low-level and high-level code using modern features.

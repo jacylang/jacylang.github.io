@@ -104,7 +104,7 @@ body {
     transform: rotate(-135deg);
     animation: 1s flame infinite;
     filter: blur(10px);
-    box-shadow: 17px 20px 90px #700;
+    box-shadow: 17px 20px 90px darken(#f03e3e, 25%);
     border: 45px solid #fff;
     border-left-width: 25px;
     border-top-width: 25px;
