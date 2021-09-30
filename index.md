@@ -23,6 +23,12 @@
             Supports basic highlighting for <span class="jacy-logo">Jacy</span> and <span class="jacy-logo">Jon</span>.
         </p>
     </a>
+    <a class="book-link" href="https://atom.io/packages/language-jacy">
+        <span class="title"><img src="assets/img/atom.svg"><span>Atom extension</span></span>
+        <p class="description">
+            The first developed text editor extension using tree-sitter. <b>outdated</b>
+        </p>
+    </a>
     <a class="book-link" href="/color-scheme">
         <span class="title">🖌️ <span class="jacy-logo">Jacy</span> color scheme</span>
         <p class="description">
@@ -38,6 +44,7 @@
 It is mostly inspired by <span class="rust-logo">Rust</span>, other influencers are: Swift, C++, OCaml (from view of Rust), Cyclone.
 
 Features <span class="jacy-logo">Jacy</span> will/does have:
+
 - Functional programming:
   - Pattern matching
   - Closures (lambdas)
