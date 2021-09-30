@@ -1,11 +1,11 @@
 <div class="books">
-    <a class="book-link" href="/Jacy-Dev-Book">
+    <a class="book-link" href="/dev-book">
         <span class="title">📓 Dev Book</span>
         <p class="description">
             Dev Book is a collection of notes and helpful information about <span class="jacy-logo">Jacy</span> internals.
         </p>
     </a>
-    <a class="book-link" href="https://github.com/jacylang/Jacy-Dev-Book">
+    <a class="book-link" href="https://github.com/jacylang/dev-book">
         <span class="title">📝 Dev Book Source</span>
         <p class="description">
             The source code of Dev Book.
