@@ -45,9 +45,9 @@
 
 It is mostly inspired by <span class="rust-logo">Rust</span>, other influencers are: Swift, C++, OCaml (from view of Rust), Cyclone.
 
-Features <span class="jacy-logo">Jacy</span> will/does have:
+Features <span class="jacy-logo">Jacy</span> will/does have power of:
 
-- Functional features:
+- Functional programming:
   - Pattern matching
   - Closures (lambdas)
   - Immutable data (forced by default)
