@@ -32,7 +32,7 @@
         </p>
     </a>
     <a class="book-link" href="/color-scheme">
-        <span class="title">🖌️ <span class="jacy-logo">Jacy</span> color scheme</span>
+        <span class="title">🎨 <span class="jacy-logo">Jacy</span> color scheme</span>
         <p class="description">
             Color scheme used by <span class="jacy-logo">Jacy</span> VSCode color theme and web sources such as this site. Currently, scheme needs much improvements. If you are a designer, it would be nice to have some advices on it.
         </p>
