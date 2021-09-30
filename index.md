@@ -1,4 +1,10 @@
 <div class="books">
+    <a class="book-link" href="https://github.com/jacylang/Jacy">
+        <span class="title">🏠 <span class="jacy-logo">Jacy</span> Source Repository</span>
+        <p class="description">
+            Contribute 😇
+        </p>
+    </a>
     <a class="book-link" href="/Jacy-Dev-Book">
         <span class="title">📓 Dev Book</span>
         <p class="description">
@@ -11,16 +17,16 @@
             The source code of Dev Book.
         </p>
     </a>
-    <a class="book-link" href="https://github.com/jacylang/Jacy">
-        <span class="title">🏠 <span class="jacy-logo">Jacy</span> Source Repository</span>
-        <p class="description">
-            Contribute 😇
-        </p>
-    </a>
     <a class="book-link" href="https://marketplace.visualstudio.com/items?itemName=jacy-lang.jacy-lang">
         <span class="title"><img src="assets/img/vscode.svg"><span>VSCode extension</span></span>
         <p class="description">
             Supports basic highlighting for <span class="jacy-logo">Jacy</span> and <span class="jacy-logo">Jon</span>.
+        </p>
+    </a>
+    <a class="book-link" href="/color-scheme">
+        <span class="title">🖌️ <span class="jacy-logo">Jacy</span> color scheme</span>
+        <p class="description">
+            Color scheme used by <span class="jacy-logo">Jacy</span> VSCode color theme and web sources such as this site. Currently, scheme needs much improvements. If you are a designer, it would be nice to have some advices on it.
         </p>
     </a>
 </div>
