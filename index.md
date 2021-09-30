@@ -24,10 +24,11 @@
         </p>
     </a>
     <a class="book-link" href="https://atom.io/packages/language-jacy">
-        <span class="title"><img src="assets/img/atom.svg"><span>Atom extension <b>[outdated]</b></span></span>
+        <span class="title"><img src="assets/img/atom.svg"><span>Atom extension</span></span>
         <p class="description">
-            The first developed text editor extension.
-            Includes tree-sitter grammar.
+            The first developed text editor extension.<br>
+            Includes tree-sitter grammar.<br>
+            <b>[outdated]</b>
         </p>
     </a>
     <a class="book-link" href="/color-scheme">
