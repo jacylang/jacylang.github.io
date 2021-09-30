@@ -46,12 +46,13 @@ It is mostly inspired by <span class="rust-logo">Rust</span>, other influencers 
 
 Features <span class="jacy-logo">Jacy</span> will/does have:
 
-- Functional programming:
+- Functional features:
   - Pattern matching
   - Closures (lambdas)
   - Immutable data (forced by default)
   - ADT
   - Parametric polymorphism
+  - Affine types
 - Type system:
   - Static
   - Nominal sub-typing
