@@ -9,7 +9,6 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    font-family: 'Noto Sans Display', sans-serif;
 }
 
 @keyframes flame {
@@ -43,7 +42,7 @@ body {
     animation: appear 0.4s ease-out;
 
     background-color: #ffff;
-    font-family: "Fira Sans", sans-serif;
+    font-family: 'Noto Sans Display', sans-serif;
 
     *::selection {
         color: #fff;
