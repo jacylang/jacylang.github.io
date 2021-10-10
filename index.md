@@ -51,7 +51,7 @@ Features <span class="jacy-logo">Jacy</span> will/does have power of:
   - Pattern matching
   - Closures (lambdas)
   - Immutable data (forced by default)
-  - ADT
+  - Algebraic Data Types
   - Parametric polymorphism
   - Affine types
 - Type system:
