@@ -12,7 +12,7 @@
         </p>
     </a>
     <a class="book-link" href="https://github.com/jacylang/jacy">
-        <span class="title"><img class="jacy-logo"> Source Repository</span>
+        <span class="title"><div class="jacy-logo"></div> Source Repository</span>
         <p class="description">
             Contribute 😇
         </p>
