@@ -39,7 +39,7 @@
     </a>
 </div>
 
-# <span class="jacy-logo">Jacy</span> programming language
+# <span class="jacy-logo">Jacy</span> programming language ![Jacy logo](assets/img/logo.png)
 
 <span class="jacy-logo">Jacy</span> is a WIP experimental project aimed at easily writing low-level and high-level code using modern features.
 
