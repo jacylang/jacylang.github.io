@@ -172,8 +172,15 @@ header.page-header {
     padding: 0 50px;
     font-weight: 100;
     font-size: 100px;
+    padding-right: 50px;
     font-family: "Courgette", cursive;
     box-shadow: 0 1px #fffa;
+
+    text-align: left;
+
+    background-image: url("assets/img/logo.svg");
+    background-position: right;
+    background-size: 50px 50px;
 }
 
 .project-tagline {
