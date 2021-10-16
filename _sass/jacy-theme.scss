@@ -255,6 +255,17 @@ h6 {
                 height: 50px;
                 padding: 12px;
             }
+
+            .jacy-logo {
+                display: inline-block;
+                position: relative;
+                width: 30px;
+                height: 30px;
+                background-image: url("/assets/img/logo.png");
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
         }
 
         .description {
@@ -301,16 +312,4 @@ h1#jacy-programming-language {
     left: 0;
     width: 100vw;
     height: 100vh;
-}
-
-
-.jacy-logo {
-    display: inline-block;
-    position: relative;
-    width: 30px;
-    height: 30px;
-    background-image: url("/assets/img/logo.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
