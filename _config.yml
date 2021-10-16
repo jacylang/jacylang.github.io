@@ -3,3 +3,5 @@ theme: jekyll-theme-cayman
 title: 'Jacy'
 description: 'Sweet Home'
 
+plugins:
+  - jekyll-seo-tag
