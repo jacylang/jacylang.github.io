@@ -193,9 +193,10 @@ h3,
 h4,
 h5,
 h6 {
-    color: #f03e3e;
+    color: #f03e3e !important;
+
     img {
-        height: 100%;
+        height: 100% !important;
     }
 }
 
