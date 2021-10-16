@@ -194,10 +194,6 @@ h4,
 h5,
 h6 {
     color: #f03e3e !important;
-
-    img {
-        height: 100% !important;
-    }
 }
 
 .site-footer-credits {
@@ -286,10 +282,14 @@ h1#jacy-programming-language {
     margin-block-end: 0;
     margin: 16px auto;
 
-    color: #f03e3e;
+    color: #f03e3e !important;
 
     em {
-        color: #f03e3e;
+        color: #f03e3e !important;
+    }
+
+    img {
+        height: 100% !important;
     }
 }
 
