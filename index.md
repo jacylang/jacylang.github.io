@@ -2,7 +2,7 @@
     <a class="book-link" href="/dev-book">
         <span class="title">📓 Dev Book</span>
         <p class="description">
-            Dev Book is a collection of notes and helpful information about <span class="jacy-logo">Jacy</span> internals.
+            Dev Book is a collection of notes and helpful information about <span class="jacy-logo-text">Jacy</span> internals.
         </p>
     </a>
     <a class="book-link" href="https://github.com/jacylang/dev-book">
@@ -12,7 +12,7 @@
         </p>
     </a>
     <a class="book-link" href="https://github.com/jacylang/jacy">
-        <span class="title">🏠 <span class="jacy-logo">Jacy</span> Source Repository</span>
+        <span class="title"><img class="jacy-logo"> Source Repository</span>
         <p class="description">
             Contribute 😇
         </p>
@@ -20,7 +20,7 @@
     <a class="book-link" href="https://marketplace.visualstudio.com/items?itemName=jacy-lang.jacy-lang">
         <span class="title"><img src="assets/img/vscode.svg"><span>VSCode extension</span></span>
         <p class="description">
-            Supports basic highlighting for <span class="jacy-logo">Jacy</span> and <span class="jacy-logo">Jon</span>.
+            Supports basic highlighting for <span class="jacy-logo-text">Jacy</span> and <span class="jacy-logo-text">Jon</span>.
         </p>
     </a>
     <a class="book-link" href="https://atom.io/packages/language-jacy">
@@ -32,20 +32,20 @@
         </p>
     </a>
     <a class="book-link" href="/color-scheme">
-        <span class="title">🎨 <span class="jacy-logo">Jacy</span> color scheme</span>
+        <span class="title">🎨 <span class="jacy-logo-text">Jacy</span> color scheme</span>
         <p class="description">
-            Color scheme used by <span class="jacy-logo">Jacy</span> VSCode color theme and web sources such as this site. Currently, scheme needs much improvements. If you are a designer, it would be nice to have some advices on it.
+            Color scheme used by <span class="jacy-logo-text">Jacy</span> VSCode color theme and web sources such as this site. Currently, scheme needs much improvements. If you are a designer, it would be nice to have some advices on it.
         </p>
     </a>
 </div>
 
-# <span class="jacy-logo">Jacy</span> programming language
+# <span class="jacy-logo-text">Jacy</span> programming language
 
-<span class="jacy-logo">Jacy</span> is a WIP experimental project aimed at easily writing low-level and high-level code using modern features.
+<span class="jacy-logo-text">Jacy</span> is a WIP experimental project aimed at easily writing low-level and high-level code using modern features.
 
 It is mostly inspired by <span class="rust-logo">Rust</span>, other influencers are: Swift, C++, OCaml (from view of Rust), Cyclone.
 
-Features <span class="jacy-logo">Jacy</span> will/does have power of:
+Features <span class="jacy-logo-text">Jacy</span> will/does have power of:
 
 - Functional programming:
   - Pattern matching

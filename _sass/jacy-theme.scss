@@ -152,7 +152,7 @@ header.page-header {
     color: #fff;
 }
 
-.jacy-logo {
+.jacy-logo-text {
     padding: 0 4px;
     line-height: 0.9;
     font-family: "Courgette", cursive;
@@ -245,7 +245,7 @@ h6 {
             box-shadow: 0 1px #ddd;
             vertical-align: middle;
 
-            .jacy-logo {
+            .jacy-logo-text {
                 padding: 0 8px;
                 margin-bottom: 5px;
             }
@@ -301,4 +301,16 @@ h1#jacy-programming-language {
     left: 0;
     width: 100vw;
     height: 100vh;
+}
+
+
+.jacy-logo {
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-image: url("/assets/img/logo.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
