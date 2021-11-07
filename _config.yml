@@ -1,7 +1,7 @@
 theme: jekyll-theme-cayman
 
 title: 'Jacy'
-description: 'Sweet Home'
+description: 'No contingency'
 
 plugins:
   - jekyll-seo-tag
