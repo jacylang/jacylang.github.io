@@ -2,13 +2,13 @@
     <a class="book-link" href="/dev-book">
         <span class="title">📓 Dev Book</span>
         <p class="description">
-            Dev Book is a collection of notes and helpful information about <span class="jacy-logo-text">Jacy</span> internals.
+            Dev Book is a collection of notes and helpful information about <span class="jacy-logo-text">Jacy</span> internals. You also can find some WIP notes on user-guide.
         </p>
     </a>
-    <a class="book-link" href="https://github.com/jacylang/dev-book">
-        <span class="title">📝 Dev Book Source</span>
+    <a class="book-link" href="/jacy">
+        <span class="title">📝 Doxygen documentation.</span>
         <p class="description">
-            The source code of Dev Book.
+            Doxygen-generated source code documentation.
         </p>
     </a>
     <a class="book-link" href="https://github.com/jacylang/jacy">
